@@ -50,19 +50,6 @@ When adding documentation comments to code, please follow these guidelines:
 Example:
 
 ```python
-/**
- * @brief A brief description of the function
- *
- * A more detailed description if needed.
- *
- * @param param1 Description of first parameter
- * @param param2 Description of second parameter
- * @return Description of return value
- *
- * @see RelatedClass
- */
-return_type function_name(param_type param1, param_type param2)
-
 def hello_world(first_name, last_name):
     """!@brief A brief description of the function
     
