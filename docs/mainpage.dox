@@ -1,0 +1,23 @@
+/**
+ * @mainpage jubilant-spoon - U.S. Figure Skating Link Tool
+ *
+ * @section intro_sec Introduction
+ *
+ * blah blah blah
+ *
+ * @section architecture Architecture
+ *
+ * The application is divided into several components:
+ *
+ * - **C1**: blah blah blah
+ * - **C2**: blah blah blah
+ * - **C3**: blah blah blah
+ *
+ * @section building Building the Project
+ *
+ * To build the project:
+ *
+ * ```
+ * cd .. &&
+ * ```
+ */
