@@ -1,5 +1,6 @@
 # Doxygen files
-docs/Doxygen/
+docs/html/
+docs/latex/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

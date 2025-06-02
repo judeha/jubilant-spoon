@@ -1,0 +1,65 @@
+\chapter{Doxygen Documentation}
+\hypertarget{md__r_e_a_d_m_e}{}\label{md__r_e_a_d_m_e}\index{Doxygen Documentation@{Doxygen Documentation}}
+for short descriptions
+
+\label{md__r_e_a_d_m_e_autotoc_md0}%
+\Hypertarget{md__r_e_a_d_m_e_autotoc_md0}%
+
+
+This project uses Doxygen to automatically generate API documentation from comments left in source code. The generated documentation will appear in the {\ttfamily docs/html} directory and can be run on a live server.\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysubsection{\texorpdfstring{How to Build Documentation}{How to Build Documentation}}\label{md__r_e_a_d_m_e_autotoc_md1}
+To build the documentation\+:
+
+
+\begin{DoxyEnumerate}
+\item Make sure you have Doxygen installed 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{which\ doxygen}
+
+\end{DoxyCode}
+
+\item Set a configuration file. This will create a Doxyfile in the current directory 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{doxygen\ -\/g}
+
+\end{DoxyCode}
+
+\item Generate the documentation. Make sure you are in the correct directory 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{doxygen}
+
+\end{DoxyCode}
+
+\item Open the documentation 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{open\ ../docs/html/index.html}
+
+\end{DoxyCode}
+
+\end{DoxyEnumerate}\hypertarget{md__r_e_a_d_m_e_autotoc_md2}{}\doxysection{\texorpdfstring{Documentation Style Guide}{Documentation Style Guide}}\label{md__r_e_a_d_m_e_autotoc_md2}
+When adding documentation comments to code, please follow these guidelines\+:
+
+
+\begin{DoxyItemize}
+\item Use {\ttfamily "{}"{}"{}} docstring comments for Doxygen documentation
+\item Document all public classes, methods, and functions
+\item Use-\/ Use
+\begin{DoxyParams}{Parameters}
+{\em to} & document parameters\\
+\hline
+\end{DoxyParams}
+
+\item Use \begin{DoxyReturn}{Returns}
+to document return values
+\end{DoxyReturn}
+
+\item Use \begin{DoxySeeAlso}{See also}
+to reference related items
+\end{DoxySeeAlso}
+
+\item Document code examples with 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{and\ }
+
+\end{DoxyCode}
+                      
+\end{DoxyItemize}
